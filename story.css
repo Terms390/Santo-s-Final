@@ -97,10 +97,10 @@ nav a:hover {
 }
 
 .hero-image {
-  width: 330px;
-  height: 312px;
-  display: grid;
-  margin-top: -1945px;
+  width: 1000px; 
+  height: auto;
+  margin: 10px; 
+}
 }
 @media screen and (max-width: 768px) {
   .hero-container {
