@@ -6,6 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
 }
+
 nav {
   height: 80px;
   background: #e4dfda;
@@ -20,7 +21,7 @@ nav {
   font-weight: bold;
   font-size: italic;
   padding: 0 2rem;
-  margin-left: -30px;
+  /* margin-left: -30px; */
 }
 nav a {
   text-decoration: none;
@@ -31,6 +32,7 @@ nav a {
 nav a:hover {
   color: #fdcc04;
 }
+
 .hero {
   background: #af9bb6;
   display: flex;
@@ -44,6 +46,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   width: 98vw;
+  margin-left: -20px;
 }
 
 .image-container img {
@@ -56,13 +59,12 @@ nav a:hover {
   justify-content: center;
   align-items: flex-start;
   color: #000;
+  padding: 0rem 2rem;
 }
 
 .column-left h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
-  margin-left: 917%;
-  margin-top: -229%;
 }
 .column-left p {
   font-size: 2rem;
@@ -81,9 +83,8 @@ nav a:hover {
   border-radius: 50px;
   position: absolute;
   left: 23%;
-  bottom: 4%;
+  bottom: 2%;
   text-decoration: none;
-  margin-left: -1%;
 }
 .button:hover {
   background: #fff;
@@ -97,10 +98,11 @@ nav a:hover {
 }
 
 .hero-image {
-  width: 1000px; 
-  height: auto;
-  margin: 10px; 
-}
+  width: 330px;
+  height: 312px;
+  display: grid;
+  margin-top: -1945px;
+  margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
   .hero-container {
